@@ -29,7 +29,6 @@ document.querySelectorAll('.toggle-btn').forEach((button) => {
   });
 });
 
-
 // Funcionalidade de "Ler mais"
 document.addEventListener('DOMContentLoaded', function () {
   // Adiciona evento de clique para "Ler mais"

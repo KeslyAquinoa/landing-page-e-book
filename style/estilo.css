@@ -97,6 +97,7 @@ p{
 
        /* Principal */
   /* Arredonda os campos de entrada */
+  
 
   
 .form-control {
@@ -117,7 +118,16 @@ p{
   .btn-primary {
     color: #fdfdfd !important;
     max-width: 300px !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
   }
+
+
+  
+  .btn-primary:hover {
+    background-color: #0E0E22 !important;
+    transform: scale(1.05);
+  }
+  
 
   /* Estilo base do botão */
 .btn-responsive {
@@ -638,6 +648,13 @@ p{
   border: #3E8F8A;
   background-color:#3E8F8A;
 }
+
+.author-section p {
+  text-indent: 20px; /* Recuo no início do parágrafo */
+  margin-bottom: 15px; /* Espaçamento entre parágrafos */
+  max-width: 800px; /* Limita a largura do texto */
+}
+
 
 /* Footer */
   footer {
